@@ -33,11 +33,180 @@ Ranking Teams for a Given Year:
 
 rankings(year): Builds the graph for the final week of the given year, computes team rankings using PageRank, and prints the top 60 teams.
 
+### **Using Rankings to Predict Ranked Games:**
+
+2019 Accuracy: 81%
+
+2021 Accuracy: 79%
+
+2022 Accuracy: 71%
+
+## **Rankings:**
+
+### **2022 Rankings**
+1:  Georgia (1)
+
+2:  Michigan (2)
+
+3:  Ohio State (4)
+
+4:  TCU (3)
+
+5:  USC (10)
+
+6:  Alabama (5)
+
+7:  Tennessee (6)
+
+8:  Penn State (11)
+
+9:  Texas (20)
+
+10:  Tulane (16)
+
+11:  Clemson (7)
+
+12:  Coastal Carolina (UR)
+
+13:  Illinois ((UR)
+
+14:  Troy (24)
+
+15:  Notre Dame (21)
+
+16:  South Alabama (UR)
+
+17:  UCF (UR)
+
+18:  Boise State (UR)
+
+19:  LSU (17)
+
+20:  Florida State (13)
+
+21:  Washington (12)
+
+22:  Louisville (UR)
+
+23:  Kansas State (9)
+
+24:  North Carolina (UR)
+
+25:  UT San Antonio (25)
+
+### **2021 Rankings**
+1:  Michigan
+
+2:  Georgia
+
+3:  Cincinnati
+
+4:  Alabama
+
+5:  Baylor
+
+6:  Ohio State
+
+7:  Pittsburgh
+
+8:  Notre Dame
+
+9:  UT San Antonio
+
+10:  Louisiana
+
+11:  NC State
+
+12:  Oregon
+
+13:  Appalachian State
+
+14:  Utah
+
+15:  Ole Miss
+
+16:  Michigan State
+
+17:  Oklahoma State
+
+18:  Wake Forest
+
+19:  Houston
+
+20:  Boise State
+
+21:  Army
+
+22:  BYU
+
+23:  Kentucky
+
+24:  Wisconsin
+
+25:  Minnesota
+
+
+### **2019 Rankings**
+1:  Ohio State
+
+2:  LSU
+
+3:  Clemson
+
+4:  Wisconsin
+
+5:  Memphis
+
+6:  Oregon
+
+7:  Appalachian State
+
+8:  Boise State
+
+9:  Georgia
+
+10:  Utah
+
+11:  Oklahoma
+
+12:  Alabama
+
+13:  UCF
+
+14:  Louisiana
+
+15:  Penn State
+
+16:  Baylor
+
+17:  Notre Dame
+
+18:  SMU
+
+19:  Florida
+
+20:  Air Force
+
+21:  Auburn
+
+22:  Navy
+
+23:  Michigan
+
+24:  San Diego State
+
+25:  Minnesota
+
 ## **Key Points**
 
+While there are obvious shortcomings in the algorithm, the rankings are quite similar to that of the AP Poll and for certain teams, you might argue that the rankings are more accurate. Traditionally, the AP Poll can predict the outcome of games with ranked teams 70% of the time. We find that for ranked games, my graph based rankings predict the outcome of the games with 78% accuracy.
+
 Graph Representation: Teams are nodes, and game outcomes are edges with weights based on performance differences.
+
 PageRank: A centrality measure used to rank teams based on their performance in the graph.
+
 Prediction Accuracy: The code evaluates how well the predicted outcomes match actual results.
+
 Focus on Top Teams: Specific functions cater to predicting outcomes involving only the top-ranked teams.
 
 ## **Visualization**
