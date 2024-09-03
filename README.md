@@ -41,8 +41,6 @@ rankings(year): Builds the graph for the final week of the given year, computes 
 
 2022 Accuracy: 71%
 
-[What is this](2019)
-
 ## **Rankings:**
 
 ### **2022 Rankings**
